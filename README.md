@@ -24,7 +24,7 @@ The `kaiahub_mail_server` service uses the `analogic/poste.io` Docker image to p
 
 #### Redes
 
-- `npm_network`: Red externa compartida con **Nginx Proxy Manager**.
+- `dmit_network`: Red externa compartida con **Nginx Proxy Manager**.
 
 #### Puertos Estándar
 
