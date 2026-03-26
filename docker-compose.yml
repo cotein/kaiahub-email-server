@@ -29,7 +29,7 @@ services:
             - DISABLE_CLAMAV=TRUE
             - DISABLE_RSPAMD=TRUE
         volumes:
-            - /mnt/mail:/data
+            - /mnt/kaiahub_mail:/data
 
 networks:
     dmit_network:
