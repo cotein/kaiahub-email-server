@@ -4,6 +4,7 @@ services:
     kaiahub_email_server:
         image: analogic/poste.io
         container_name: kaiahub_email_server
+        hostname: mail.kaiahub.ar
         restart: always
         networks:
             - dmit_network
