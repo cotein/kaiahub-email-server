@@ -22,6 +22,7 @@ services:
         environment:
             - TZ=America/New_York
             - h=mail.kaiahub.ar
+            - EXPECTED_PROXY_ADDRESS=207.154.213.90
             - HTTP_PORT=8080
             - HTTPS_PORT=4443
             - HTTPS=OFF
